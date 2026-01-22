@@ -34,6 +34,19 @@ kotlin {
             implementation(libs.androidx.activity.compose)
         }
         commonMain.dependencies {
+            implementation(projects.core.domain)
+            implementation(projects.core.designcomponent)
+            implementation(projects.core.data)
+            implementation(projects.core.presentation)
+
+            implementation(projects.feature.auth.domain)
+            implementation(projects.feature.auth.presentation)
+
+            implementation(projects.feature.chat.domain)
+            implementation(projects.feature.chat.presentation)
+            implementation(projects.feature.chat.database)
+            implementation(projects.feature.chat.data)
+
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material3)
@@ -43,9 +56,7 @@ kotlin {
             implementation(libs.jetbrains.lifecycle.viewmodel)
             implementation(libs.jetbrains.lifecycle.compose)
         }
-        commonTest.dependencies {
-            implementation(libs.kotlin.test)
-        }
+
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)

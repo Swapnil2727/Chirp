@@ -206,6 +206,7 @@ google-services = { id = "com.google.gms.google-services", version.ref = "google
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfig" }
 conveyor = { id = "dev.hydraulic.conveyor", version.ref = "conveyor" }
+android-lint = { id = "com.android.lint", version.ref = "agp" }
 
 [bundles]
 koin-common = [
