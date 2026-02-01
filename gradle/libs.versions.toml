@@ -159,12 +159,12 @@ androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "androidx-lifecycle" }
 
 koin-bom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koin" }
-jetbrains-compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref="compose-jetbrains" }
-jetbrains-compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref="compose-jetbrains"}
-jetbrains-compose-material-icons-core = { module = "org.jetbrains.compose.material:material-icons-core", version.ref = "material-icons"}
-jetbrains-compose-material-icons-extended = { module = "org.jetbrains.compose.material:material-icons-extended", version.ref = "material-icons"}
-jetbrains-compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref="compose-jetbrains"}
-jetbrains-compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref="compose-jetbrains"}
+jetbrains-compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "compose-jetbrains" }
+jetbrains-compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "compose-jetbrains" }
+jetbrains-compose-material-icons-core = { module = "org.jetbrains.compose.material:material-icons-core", version.ref = "material-icons" }
+jetbrains-compose-material-icons-extended = { module = "org.jetbrains.compose.material:material-icons-extended", version.ref = "material-icons" }
+jetbrains-compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "compose-jetbrains" }
+jetbrains-compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "compose-jetbrains" }
 
 jetbrains-lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel", version.ref = "compose-lifecycle" }
 jetbrains-lifecycle-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "compose-lifecycle" }
@@ -175,8 +175,8 @@ androidx-runner = { group = "androidx.test", name = "runner", version.ref = "run
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
 
 [plugins]
-convention-android-application = { id = "com.plcoding.convention.android.application", version = "unspecified" }
-convention-android-application-compose = { id = "com.plcoding.convention.android.application.compose", version = "unspecified" }
+convention-android-application = { id = "com.plcoding.convention.android.application" }
+convention-android-application-compose = { id = "com.plcoding.convention.android.application.compose" }
 convention-cmp-application = { id = "com.plcoding.convention.cmp.application", version = "unspecified" }
 convention-kmp-library = { id = "com.plcoding.convention.kmp.library", version = "unspecified" }
 convention-cmp-library = { id = "com.plcoding.convention.cmp.library", version = "unspecified" }
