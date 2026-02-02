@@ -61,5 +61,10 @@ gradlePlugin {
             implementationClass = "CmpLibraryConventionPlugin"
         }
 
+        register("buildKonfig"){
+            id = libs.plugins.convention.buildkonfig.get().pluginId
+            implementationClass = "BuildKonfigConventionPlugin"
+        }
+
     }
 }
