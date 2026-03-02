@@ -4,6 +4,7 @@ import org.gradle.api.Project
 import org.gradle.internal.Actions.with
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
+import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.invoke
 import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
 
@@ -30,6 +31,9 @@ class CmpLibraryConventionPlugin : Plugin<Project> {
                         }
                     }
                 }
+            }
+            dependencies {
+                add("debugImplementation", libs.findLibrary("androidx-compose-ui-tooling").get())
             }
         }
     }
