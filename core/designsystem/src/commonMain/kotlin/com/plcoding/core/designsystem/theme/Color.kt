@@ -1,0 +1,70 @@
+package com.plcoding.core.designsystem.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Brand colors
+val ChirpBrand1000 = Color(0xFF092E2D)
+val ChirpBrand900 = Color(0xFF106461)
+val ChirpBrand600 = Color(0xFF19BA87)
+val ChirpBrand500 = Color(0xFF4DDEAB)
+val ChirpBrand500Alpha40 = Color(0x664DDEAB)
+val ChirpBrand100 = Color(0xFFCEF5E4)
+
+// Base Colors
+val ChirpBase1000 = Color(0xFF101C28)
+val ChirpBase1000Alpha8 = Color(0x14101C28)
+val ChirpBase1000Alpha80 = Color(0xCC101C28)
+val ChirpBase950 = Color(0xFF1C2A39)
+val ChirpBase900 = Color(0xFF2F3F4F)
+val ChirpBase800 = Color(0xFF475767)
+val ChirpBase700 = Color(0xFF667685)
+val ChirpBase500 = Color(0xFF8597A9)
+val ChirpBase400 = Color(0xFF9DADBE)
+val ChirpBase200 = Color(0xFFD0D7DD)
+val ChirpBase150 = Color(0xFFDCE0E5)
+val ChirpBase100 = Color(0xFFF5F7F8)
+val ChirpBase100Alpha10 = Color(0x1AF5F7F8)
+val ChirpBase1000Alpha14 = Color(0x14101C28)
+val ChirpBase100Alpha10Alt = Color(0x1AF5F7F8)
+val ChirpBase0 = Color(0xFFFFFFFF)
+
+// Red Colors
+val ChirpRed600 = Color(0xFFAA142A)
+val ChirpRed500 = Color(0xFFDA233E)
+val ChirpRed200 = Color(0xFFFF7987)
+
+// Accent Colors (15% alpha)
+val ChirpBlue = Color(0x26A2C0FF)
+val ChirpPurple = Color(0x26CAADFF)
+val ChirpViolet = Color(0x26FCB6FF)
+val ChirpPink = Color(0x26FFA6AF)
+val ChirpOrange = Color(0x26FEC5A7)
+val ChirpYellow = Color(0x26FEF4A5)
+val ChirpGreen = Color(0x26C2FFA6)
+val ChirpTeal = Color(0x26A0FFE0)
+val ChirpLightBlue = Color(0x2698E4FF)
+val ChirpGrey = Color(0x26D0D7DD)
+
+// Cake Colors - Light Theme
+val ChirpCakeLightViolet = Color(0xFFF0D9FF)
+val ChirpCakeLightGreen = Color(0xFFDEFFD9)
+val ChirpCakeLightBlue = Color(0xFFD9E8FF)
+val ChirpCakeLightPink = Color(0xFFFFE0E6)
+val ChirpCakeLightOrange = Color(0xFFFFE8D9)
+val ChirpCakeLightYellow = Color(0xFFFFF9D9)
+val ChirpCakeLightTeal = Color(0xFFD9FFF2)
+val ChirpCakeLightPurple = Color(0xFFE6D9FF)
+val ChirpCakeLightRed = Color(0xFFFFD9DC)
+val ChirpCakeLightMint = Color(0xFFE0FFE8)
+
+// Cake Colors - Dark Theme (15% alpha muted shades)
+val ChirpCakeDarkViolet = Color(0x26FCB6FF)
+val ChirpCakeDarkGreen = Color(0x26C2FFA6)
+val ChirpCakeDarkBlue = Color(0x26A2C0FF)
+val ChirpCakeDarkPink = Color(0x26FFA6AF)
+val ChirpCakeDarkOrange = Color(0x26FEC5A7)
+val ChirpCakeDarkYellow = Color(0x26FEF4A5)
+val ChirpCakeDarkTeal = Color(0x26A0FFE0)
+val ChirpCakeDarkPurple = Color(0x26CAADFF)
+val ChirpCakeDarkRed = Color(0x26FF8A95)
+val ChirpCakeDarkMint = Color(0x26A6FFCC)

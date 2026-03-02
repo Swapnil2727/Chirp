@@ -1,4 +1,4 @@
-*.iml
+I hav*.iml
 .kotlin
 .gradle
 **/build/
@@ -17,3 +17,4 @@ captures
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
+Claude.md
