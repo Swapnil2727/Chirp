@@ -1,4 +1,4 @@
-package com.plcoding.core.designsystem.components.buttons
+package com.plcoding.core.designcomponent.components.buttons
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
@@ -19,8 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.plcoding.core.designsystem.theme.ChirpTheme
-import com.plcoding.core.designsystem.theme.extended
+import com.plcoding.core.designcomponent.theme.ChirpTheme
+import com.plcoding.core.designcomponent.theme.extended
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 enum class ChirpButtonStyle {

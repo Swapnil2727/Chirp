@@ -1,4 +1,4 @@
-package com.plcoding.core.designsystem.theme
+package com.plcoding.core.designcomponent.theme
 
 import androidx.compose.ui.graphics.Color
 
