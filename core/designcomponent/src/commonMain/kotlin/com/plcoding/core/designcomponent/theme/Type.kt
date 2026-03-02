@@ -1,4 +1,4 @@
-package com.plcoding.core.designsystem.theme
+package com.plcoding.core.designcomponent.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
@@ -6,12 +6,12 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import chirp.core.designsystem.generated.resources.Res
-import chirp.core.designsystem.generated.resources.plusjakartasans_bold
-import chirp.core.designsystem.generated.resources.plusjakartasans_light
-import chirp.core.designsystem.generated.resources.plusjakartasans_medium
-import chirp.core.designsystem.generated.resources.plusjakartasans_regular
-import chirp.core.designsystem.generated.resources.plusjakartasans_semibold
+import chirp.core.designcomponent.generated.resources.Res
+import chirp.core.designcomponent.generated.resources.plusjakartasans_bold
+import chirp.core.designcomponent.generated.resources.plusjakartasans_light
+import chirp.core.designcomponent.generated.resources.plusjakartasans_medium
+import chirp.core.designcomponent.generated.resources.plusjakartasans_regular
+import chirp.core.designcomponent.generated.resources.plusjakartasans_semibold
 import org.jetbrains.compose.resources.Font
 
 val PlusJakartaSans @Composable get() = FontFamily(
